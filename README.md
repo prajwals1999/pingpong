@@ -8,11 +8,11 @@ c.	Keep doing this as a ping pong.\
 d.	Expose api’s to start and stop the events via the services\
 
 To start using Ping :
-http://localhost:9000/kafka/ping?message=start
+http://localhost:9000/kafka/ping?message=start \
 To stop using Ping :
-http://localhost:9000/kafka/ping?message=stop
+http://localhost:9000/kafka/ping?message=stop \
 
 To start using Pong :
-http://localhost:8000/kafka/pong?message=start
+http://localhost:8000/kafka/pong?message=start \
 To stop using Pong :
-http://localhost:8000/kafka/pong?message=stop
+http://localhost:8000/kafka/pong?message=stop \
