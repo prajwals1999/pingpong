@@ -1,0 +1,12 @@
+server:
+  port: 8000
+spring:
+  kafka:
+    pong_pc:
+      bootstrap-servers: localhost:8092
+      group-id: pong_group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+
